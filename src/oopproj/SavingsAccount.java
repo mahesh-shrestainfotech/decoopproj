@@ -1,5 +1,6 @@
 package oopproj;
 
+//This is a SavingAccount class.
 //base class or parent class or super class
 public class SavingsAccount {
 	
@@ -43,6 +44,11 @@ public class SavingsAccount {
 	//static method
 	public static int getMinimumbalance() {
 		return minimumBalance;
+	}
+	
+	public void printDetails() {
+		System.out.println("AccountNo : "+accountNo);
+		System.out.println("Balance   : "+balance);
 	}
 
    //instance methods or non-static method
