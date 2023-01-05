@@ -26,5 +26,10 @@ public class JuniorSavingsAccount extends SavingsAccount{
 	}
 	
 	
+	public void printDetails() {
+		System.out.println("AccountNo : "+getAccountNo());
+		System.out.println("Balance   : "+getBalance());
+	}
+	
 	
 }
