@@ -1,7 +1,5 @@
 package oopproj;
 
-public class Animal {
-	public void makesSound() {
-		System.out.println("Makes Sound");
-	}
+abstract public class Animal {
+	abstract public void makesSound();
 }
